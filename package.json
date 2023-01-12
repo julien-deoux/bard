@@ -1,0 +1,24 @@
+{
+  "name": "bard",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist-electron/main.js",
+  "description": "A dynamic soundtrack player for tabletop RPGs",
+  "license": "GPL-3.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && electron-forge make",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-dmg": "^6.0.4",
+    "@types/elm": "^0.19.1",
+    "electron": "^22.0.0",
+    "prettier": "^2.8.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.4",
+    "vite-plugin-electron": "^0.11.1",
+    "vite-plugin-elm": "2.8.0-beta.1"
+  }
+}
