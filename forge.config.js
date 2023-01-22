@@ -1,6 +1,6 @@
 module.exports = {
   packagerConfig: {
-    extraResource: 'dist',
+    extraResource: ['dist', 'audio'],
   },
   makers: [
     {
